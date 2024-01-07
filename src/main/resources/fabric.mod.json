@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "eldritchcraft",
+	"version": "${version}",
+	"name": "eldritchcraft",
+	"description": "A mod that adds a new biome that adds new mobs and gameplay mechanics",
+	"authors": [
+		"Afr_dev"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/eldritchcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.afr.eldritchcraft.EldritchCraft"
+		],
+		"client": [
+			"net.afr.eldritchcraft.EldritchCraftClient"
+		],
+		"fabric-datagen": [
+			"net.afr.eldritchcraft.EldritchCraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"eldritchcraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

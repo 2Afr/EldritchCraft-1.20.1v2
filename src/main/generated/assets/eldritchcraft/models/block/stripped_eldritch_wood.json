@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "eldritchcraft:block/stripped_eldritch_log",
+    "side": "eldritchcraft:block/stripped_eldritch_log"
+  }
+}

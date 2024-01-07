@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=lower": {"model": "eldritchcraft:block/moonflower_bottom"},
+    "half=upper": {"model": "eldritchcraft:block/moonflower_top"}
+  }
+}

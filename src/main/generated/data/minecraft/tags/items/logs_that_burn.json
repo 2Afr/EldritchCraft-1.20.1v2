@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "eldritchcraft:eldritch_log",
+    "eldritchcraft:eldritch_wood",
+    "eldritchcraft:stripped_eldritch_log",
+    "eldritchcraft:stripped_eldritch_wood"
+  ]
+}

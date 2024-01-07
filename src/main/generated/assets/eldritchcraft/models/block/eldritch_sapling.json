@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "eldritchcraft:block/eldritch_sapling"
+  }
+}

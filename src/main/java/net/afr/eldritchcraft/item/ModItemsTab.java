@@ -25,6 +25,14 @@ public class ModItemsTab {
                         entries.add(ModBlockClass.ELDRITCH_LEAVES);
                         entries.add(ModBlockClass.ELDRITCH_SAPLING);
                         entries.add(ModBlockClass.MOONFLOWER);
+                        entries.add(ModBlockClass.ELDRITCH_STAIRS);
+                        entries.add(ModBlockClass.ELDRITCH_SLAB);
+                        entries.add(ModBlockClass.ELDRITCH_FENCE);
+                        entries.add(ModBlockClass.ELDRITCH_FENCE_GATE);
+                        entries.add(ModBlockClass.ELDRITCH_PRESSURE_PLATE);
+                        entries.add(ModBlockClass.ELDRITCH_DOOR);
+                        entries.add(ModBlockClass.ELDRITCH_TRAPDOOR);
+                        entries.add(ModBlockClass.ELDRITCH_BUTTON);
                     }).build());
     public static void registerModItemsGroup() {
         EldritchCraft.LOGGER.info("Registering Items Group for " + EldritchCraft.MOD_ID);

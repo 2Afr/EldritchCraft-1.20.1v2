@@ -2,10 +2,18 @@
   "itemgroup.eldritchcraft": "EldritchCraft",
   "block.eldritchcraft.eldritch_log": "Eldritch Log",
   "block.eldritchcraft.eldritch_wood": "Eldritch Wood",
-  "block.eldritchcraft.stripped_eldritch_log": " Stripped Eldritch Log",
-  "block.eldritchcraft.stripped_eldritch_wood": " Stripped Eldritch Wood",
+  "block.eldritchcraft.stripped_eldritch_log": "Stripped Eldritch Log",
+  "block.eldritchcraft.stripped_eldritch_wood": "Stripped Eldritch Wood",
   "block.eldritchcraft.eldritch_planks": "Eldritch Planks",
   "block.eldritchcraft.eldritch_leaves": "Eldritch Leaves",
   "block.eldritchcraft.eldritch_sapling": "Eldritch Sapling",
-  "block.eldritchcraft.moonflower": "MoonFlower"
+  "block.eldritchcraft.moonflower": "MoonFlower",
+  "block.eldritchcraft.eldritch_stairs": "Eldritch Stairs",
+  "block.eldritchcraft.eldritch_slab": "Eldritch Slab",
+  "block.eldritchcraft.eldritch_fence": "Eldritch Fence",
+  "block.eldritchcraft.eldritch_fence_gate": "Eldritch Fence Gate",
+  "block.eldritchcraft.eldritch_door": "Eldritch Door",
+  "block.eldritchcraft.eldritch_trapdoor": "Eldritch Trapdoor",
+  "block.eldritchcraft.eldritch_pressure_plate": "Eldritch Pressure Plate",
+  "block.eldritchcraft.eldritch_button": "Eldritch Button"
 }

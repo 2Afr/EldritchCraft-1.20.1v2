@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "eldritchcraft:block/eldritch_planks"
+  }
+}

@@ -19,6 +19,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlockClass.ELDRITCH_LOG)
                 .add(ModBlockClass.ELDRITCH_WOOD)
                 .add(ModBlockClass.STRIPPED_ELDRITCH_LOG)
-                .add(ModBlockClass.STRIPPED_ELDRITCH_WOOD);
+                .add(ModBlockClass.STRIPPED_ELDRITCH_WOOD)
+                .add(ModBlockClass.ELDRITCH_STAIRS)
+                .add(ModBlockClass.ELDRITCH_SLAB)
+                .add(ModBlockClass.ELDRITCH_FENCE)
+                .add(ModBlockClass.ELDRITCH_FENCE_GATE)
+                .add(ModBlockClass.ELDRITCH_PRESSURE_PLATE)
+                .add(ModBlockClass.ELDRITCH_DOOR)
+                .add(ModBlockClass.ELDRITCH_TRAPDOOR)
+                .add(ModBlockClass.ELDRITCH_BUTTON);
     }
 }

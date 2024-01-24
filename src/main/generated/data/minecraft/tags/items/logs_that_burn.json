@@ -4,6 +4,14 @@
     "eldritchcraft:eldritch_log",
     "eldritchcraft:eldritch_wood",
     "eldritchcraft:stripped_eldritch_log",
-    "eldritchcraft:stripped_eldritch_wood"
+    "eldritchcraft:stripped_eldritch_wood",
+    "eldritchcraft:eldritch_stairs",
+    "eldritchcraft:eldritch_slab",
+    "eldritchcraft:eldritch_fence",
+    "eldritchcraft:eldritch_fence_gate",
+    "eldritchcraft:eldritch_pressure_plate",
+    "eldritchcraft:eldritch_door",
+    "eldritchcraft:eldritch_trapdoor",
+    "eldritchcraft:eldritch_button"
   ]
 }

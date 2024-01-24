@@ -39,6 +39,24 @@ public class ModBlockClass {
     public static final Block MOONFLOWER = registerBlock("moonflower",
             new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.SUNFLOWER)));
 
+    public static final Block ELDRITCH_STAIRS = registerBlock("eldritch_stairs",
+            new StairsBlock(ModBlockClass.ELDRITCH_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+    public static final Block ELDRITCH_SLAB = registerBlock("eldritch_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB)));
+    public static final Block ELDRITCH_FENCE = registerBlock("eldritch_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE)));
+    public static final Block ELDRITCH_FENCE_GATE = registerBlock("eldritch_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_FENCE), WoodType.ACACIA));
+    public static final Block ELDRITCH_PRESSURE_PLATE = registerBlock("eldritch_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING
+                    ,FabricBlockSettings.copyOf(Blocks.OAK_PRESSURE_PLATE), BlockSetType.ACACIA));
+    public static final Block ELDRITCH_DOOR = registerBlock("eldritch_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_DOOR), BlockSetType.ACACIA));
+    public static final Block ELDRITCH_TRAPDOOR = registerBlock("eldritch_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR), BlockSetType.ACACIA));
+    public static final Block ELDRITCH_BUTTON = registerBlock("eldritch_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.OAK_BUTTON),
+                    BlockSetType.ACACIA, 10, true));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

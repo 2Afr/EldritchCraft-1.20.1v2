@@ -3,13 +3,13 @@
 	"id": "eldritchcraft",
 	"version": "${version}",
 	"name": "eldritchcraft",
-	"description": "A mod that adds a new biome that adds new mobs and gameplay mechanics",
+	"description": "A mod that adds a new biome and other things",
 	"authors": [
 		"Afr_dev"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/2Afr/EldritchCraft-1.20.1v2"
 	},
 	"license": "MIT",
 	"icon": "assets/eldritchcraft/icon.png",

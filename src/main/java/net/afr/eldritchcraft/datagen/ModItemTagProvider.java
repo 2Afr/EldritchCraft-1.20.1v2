@@ -22,6 +22,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlockClass.ELDRITCH_LOG.asItem())
                 .add(ModBlockClass.ELDRITCH_WOOD.asItem())
                 .add(ModBlockClass.STRIPPED_ELDRITCH_LOG.asItem())
-                .add(ModBlockClass.STRIPPED_ELDRITCH_WOOD.asItem());
+                .add(ModBlockClass.STRIPPED_ELDRITCH_WOOD.asItem())
+                .add(ModBlockClass.ELDRITCH_STAIRS.asItem())
+                .add(ModBlockClass.ELDRITCH_SLAB.asItem())
+                .add(ModBlockClass.ELDRITCH_FENCE.asItem())
+                .add(ModBlockClass.ELDRITCH_FENCE_GATE.asItem())
+                .add(ModBlockClass.ELDRITCH_PRESSURE_PLATE.asItem())
+                .add(ModBlockClass.ELDRITCH_DOOR.asItem())
+                .add(ModBlockClass.ELDRITCH_TRAPDOOR.asItem())
+                .add(ModBlockClass.ELDRITCH_BUTTON.asItem());
     }
 }

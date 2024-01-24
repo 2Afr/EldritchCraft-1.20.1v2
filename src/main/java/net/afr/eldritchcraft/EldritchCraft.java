@@ -37,6 +37,15 @@ public class EldritchCraft implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlockClass.ELDRITCH_PLANKS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlockClass.ELDRITCH_LEAVES, 30, 60);
 
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlockClass.ELDRITCH_STAIRS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlockClass.ELDRITCH_SLAB, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlockClass.ELDRITCH_FENCE, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlockClass.ELDRITCH_FENCE_GATE, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlockClass.ELDRITCH_PRESSURE_PLATE, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlockClass.ELDRITCH_DOOR, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlockClass.ELDRITCH_TRAPDOOR, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlockClass.ELDRITCH_BUTTON, 5, 20);
+
 
 	}
 }

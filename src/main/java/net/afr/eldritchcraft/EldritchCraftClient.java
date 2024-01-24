@@ -16,5 +16,8 @@ public class EldritchCraftClient implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlockClass.MOONFLOWER, RenderLayer.getCutout());
 
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlockClass.ELDRITCH_DOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlockClass.ELDRITCH_TRAPDOOR, RenderLayer.getCutout());
+
     }
 }
